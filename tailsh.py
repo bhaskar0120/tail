@@ -18,7 +18,6 @@ def main():
         if command in cmd_list:
             cmd_list[command](args)
         else:
-            print("{} : with args {}".format(command, args))
             print(tool_strings.command_not_found)
             #TODO find_next_close_word()
 
